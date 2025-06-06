@@ -10,7 +10,7 @@ form.addEventListener('submit', async (e) => {
   addMessage(userMsg, 'user-msg');
   input.value = '';
 
-  const response = await fetch('https://iandcias.app.n8n.cloud/webhook/4ea83f2b-3a08-4074-aa52-a3176d371faf/chat', {
+  const response = await fetch('https://iancdias.app.n8n.cloud/webhook/4ea83f2b-3a08-4074-aa52-a3176d3717af/chat, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ chatInput: userMsg })
